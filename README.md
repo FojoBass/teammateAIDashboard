@@ -9,7 +9,7 @@ For the dashboard, I decided to use a grid system of two children, one for the d
 
 I made used of the table element for the dashboard, and had to set specific "min-width" for its columns, so that the table's content will appear well on smaller screens. Then to avoid the data from being truncated, I set the table's container to an overflow value of "auto", so has to allow the user to scroll the table to view the overflowing columns.
 
-HOW DASHBOARD WORKS:\n
+HOW DASHBOARD WORKS:
 Since there was no fetching of tasks, I created dummy tasks in the data.js file, and once the user opens the dashboard, the tasks are saved to the local storage, so that it will persist. Also, any change to the tasks list is upadated in the local storage. 
 
 For creating of tasks, I initially planned on using a modal for that, but then I got a more better idea, allow the users to edit straight from the table, instead of using a modal. To make this happening, I placed a button for making the content in the individual rows edittable. Once the user hits that button, the contents becomes edittable. Once the user is done editting, the changes are saved. The row can then be locked back to prevent accidental editting.
