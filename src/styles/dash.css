@@ -19,6 +19,7 @@
   font-size: 2.5rem;
   transform: translateY(-50%);
   opacity: 0.5;
+  display: none;
 }
 
 .show_nav_btn:hover {
@@ -308,6 +309,10 @@ input[type='date'] {
 @media screen and (max-width: 1000px) {
   #dashboard .center_sect {
     grid-template-columns: 1fr;
+  }
+
+  .show_nav_btn {
+    display: inline-block;
   }
 
   .dash_nav {
