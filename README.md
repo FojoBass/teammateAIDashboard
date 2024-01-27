@@ -1,5 +1,6 @@
+INTRODUCTION
 For this project, I used Vite+React, and the dependencies I installed are: react-icons and uuid.
-I did not use redux because the project is a small one, and it would too excessive. I settled for contextAPI, although I did not use it much.
+I did not use redux because the project is a small one, and it would ve too excessive. I settled for contextAPI, although I did not use it much.
 
 DESIGN EXPLANATION
 I did not want the project to just look bland, so I decided to include the navbar, just like the one in the teachmateAi site, although I had to use css to replicate the logo since I couldn't download it.
