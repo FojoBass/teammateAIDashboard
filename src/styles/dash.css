@@ -323,6 +323,7 @@ input[type='date'] {
     height: fit-content;
     transform: translateX(-100%);
     transition: var(--trans);
+    z-index: 2;
   }
 
   .dash_nav.active {
